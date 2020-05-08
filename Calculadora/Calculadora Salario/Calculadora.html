@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
+   <SCript>
+    function operacao () {
+        let n1 = parseInt (document.body.children[1].children[0].value)
+        let n2 = parseInt (document.body.children[2].children[0].value)
+        let op =  n1  -  ( n1 / 100 * n2 )
+        resultado.innerText = op
+}
+   </SCript>
+        
 </head>
 <body>
- 
+   
+        <h1>Calculadora</h1>
 
+    <div> <input id ="campo1" placeholder="Salario" type="number"></div>
+    <div> <input id ="campo2" placeholder="% de desconto" type="number"></div>
+
+    <div><button onclick ="operacao ()">Calcular</button> </div>
+    
+    <div id = "resultado" >  </div>
+      
 </body>
