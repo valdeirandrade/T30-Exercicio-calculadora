@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/valdeirandrade/T30-Exercicio-calculadora/issues"
   },
-  "homepage": "https://github.com/valdeirandrade/T30-Exercicio-calculadora#readme"
+  "homepage": "https://github.com/valdeirandrade/T30-Exercicio-calculadora#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
